@@ -8,12 +8,12 @@ Be sure to read the [Insentra usage policy](https://github.com/Insentra/usage-po
 
 ### Creating a New Repository
 When creating a new repository, the following selections are recommended:
-* Repository name - choose a descriptive yet simplified name
-* Description - add a short description of the repository
-* Public / Private - the repository will be private by default
-* Initialise this repository with a README - this will make it simple to provide some details as to what the repository is for
-* Add .gitignore - choose an ignore template that matches the project, or close to it. The contents can be changed later
-* Add a license - choose the MIT license by default
+* **Repository name** - choose a descriptive yet simplified name
+* **Description** - add a short description of the repository
+* **Public / Private** - the repository will be private by default
+* **Initialise this repository with a README** - this will make it simple to provide some details as to what the repository is for
+* **Add .gitignore** - choose an ignore template that matches the project, or close to it. The contents can be changed later
+* **Add a license** - choose the MIT license by default
 
 ![](https://raw.githubusercontent.com/Insentra/user-guide/master/CreatingNewRepository.png?token=AH2Kf-Y5g_rHdVQK1laoRs0CdIAVY_P4ks5X18xkwA%3D%3D)
 

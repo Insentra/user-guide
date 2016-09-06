@@ -37,7 +37,7 @@ The GitHub Desktop application provides a GUI interface to GitHub. You can [clon
 
 ### Windows
 * [GitHub Desktop](https://desktop.github.com/).
-* [Microsoft Visual Studio Code](https://code.visualstudio.com/Docs/?dv=win) is a great alternative to the PowerShell ISE and [includes git integration](https://code.visualstudio.com/docs/editor/versioncontrol). After installing Visual Studio Code, add [the PowerShell extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell). Use the Quick Open commands and run 
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/Docs/?dv=win) is a great alternative to the PowerShell ISE and [includes git integration](https://code.visualstudio.com/docs/editor/versioncontrol). After installing Visual Studio Code, add [the PowerShell extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell). Use the Quick Open command and run:
 ```
 ext install PowerShell
 ```
@@ -52,10 +52,14 @@ Install-Module posh-git
 ### macOS
 * [GitHub Desktop](https://desktop.github.com/).
 * [git command line tools](https://git-scm.com/download/mac) for macOS.
-* [Microsoft Visual Studio Code](https://code.visualstudio.com/Docs/?dv=osx) is also available for macOS.
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/Docs/?dv=osx) is also available for macOS. After installing Visual Studio Code, add [the PowerShell extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell). Use the Quick Open command and run:
+```
+ext install PowerShell
+```
 * PowerShell is now [available for macOS](https://github.com/PowerShell/PowerShell)
 
 ### Linux
 * [git command line tools](https://git-scm.com/download/linux) for Linux.
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/) is available for Linux.
+* PowerShell is now [available for Linux](https://github.com/PowerShell/PowerShell)
 

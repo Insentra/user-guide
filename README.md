@@ -1,4 +1,4 @@
-# User guide for GitHub
+# Quick Start Guide for GitHub
 This is a resource for information about using GitHub within Insentra, useful links for learning about GitHub and recommended tools. This guide is not intended to be a complete user guide but will contain useful information on getting up and running quickly for anyone new to Git and GitHub.
 
 ## About GitHub
@@ -29,3 +29,33 @@ To ensure that certain file types are not automatically synchronised with a repo
 A basic .gitignore file that should suit most repositories, can be found here: https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore
 
 For additional customisation, see [the gitignore.io site](https://www.gitignore.io/) that contains templates for a large number of languages.
+
+## GitHub Tools
+You can use git from the command line; however, to get up an running quickly GitHub provides graphical tools for local repository management and synchronisation.
+
+The GitHub Desktop application provides a GUI interface to GitHub. You can [clone](https://help.github.com/articles/cloning-a-repository/) repositories right from github.com which will automatically open the repository in the GitHub Desktop app.
+
+### Windows
+* [GitHub Desktop](https://desktop.github.com/).
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/Docs/?dv=win) is a great alternative to the PowerShell ISE and [includes git integration](https://code.visualstudio.com/docs/editor/versioncontrol). After installing Visual Studio Code, add [the PowerShell extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell). Use the Quick Open commands and run 
+```
+ext install PowerShell
+```
+* [git command line tools](https://git-scm.com/download/win) for Windows.
+* [posh-git](https://github.com/dahlbyk/posh-git) enabled git command line functionality from PowerShell. On Windows 10, open a PowerShell window and run:
+```
+Install-PackageProvider -Name NuGet -Force
+Install-Module posh-git
+```
+* The [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is available as well.
+
+### macOS
+* [GitHub Desktop](https://desktop.github.com/).
+* [git command line tools](https://git-scm.com/download/mac) for macOS.
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/Docs/?dv=osx) is also available for macOS.
+* PowerShell is now [available for macOS](https://github.com/PowerShell/PowerShell)
+
+### Linux
+* [git command line tools](https://git-scm.com/download/linux) for Linux.
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/) is available for Linux.
+

@@ -14,7 +14,8 @@ When creating a new repository, the following selections are recommended:
 * Initialise this repository with a README - this will make it simple to provide some details as to what the repository is for
 * Add .gitignore - choose an ignore template that matches the project, or close to it. The contents can be changed later
 * Add a license - choose the MIT license by default
-![](https://raw.githubusercontent.com/Insentra/user-guide/master/CreatingNewRepository.png)
+
+![](https://raw.githubusercontent.com/Insentra/user-guide/master/CreatingNewRepository.png?token=AH2Kf-Y5g_rHdVQK1laoRs0CdIAVY_P4ks5X18xkwA%3D%3D)
 
 ### README.md
 Initialise each repository with a README.md that includes some information about the code stored in the repository. If the repository is for a specific project, including the project number in the readme will assist with tracking.

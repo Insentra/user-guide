@@ -48,6 +48,7 @@ Install-PackageProvider -Name NuGet -Force
 Install-Module posh-git
 ```
 * The [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is available as well.
+* [MarkdownPad](http://markdownpad.com/) is available for editing markdown (e.g. for Readme.md files)
 
 ### macOS
 * [GitHub Desktop](https://desktop.github.com/).
@@ -57,6 +58,7 @@ Install-Module posh-git
 ext install PowerShell
 ```
 * PowerShell is now [available for macOS](https://github.com/PowerShell/PowerShell)
+* Markdown editors on the Mac include [MacDown](https://macdown.uranusjr.com/) and [iA Writer](https://ia.net/writer/)
 
 ### Linux
 * [git command line tools](https://git-scm.com/download/linux) for Linux.
